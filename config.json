@@ -1,0 +1,10 @@
+{
+    "cheats": {
+        "prefetches": ["HORIONINJECTOR","AMBROSIAL"],
+        "directories": ["Horion", "project-halcyon"],
+        "local": ["Ambrosial"],
+        "usageLogs": ["Ambrosial"],
+        "temp": ["Horion"],
+        "logs":["HorionInjector"]
+    }
+}
