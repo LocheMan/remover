@@ -13,6 +13,8 @@ except:
     except: pass
     os.system(f"pip install shutil")
 
+import watermark
+
 
 def remover():
     data = json.load(open('config.json', 'r'))
@@ -25,9 +27,9 @@ def remover():
             for i in range(len(prefetches)):
                 if prefetches[i] in file:
                     os.remove(f"C:/Windows/prefetch/{file}")
-                    print(f"Le prefetch du programme \"{prefetches[i]}\" a été supprimé")
+                    print(f"\nLe prefetch du programme \"{prefetches[i]}\" a été supprimé")
     except:
-        print("Erreur: Prefetches")
+        print("\nErreur: Prefetches")
 
     # RoamingState Directory
     directories = data["cheats"]["directories"]
